@@ -40,6 +40,23 @@ to:
 target_link_libraries(${COMPONENT_LIB} INTERFACE "${CMAKE_CURRENT_SOURCE_DIR}/src/esp32/libalgobsec.a")
 ```
 
+## Cloning the Project
+
+### Clone the Repository with Submodules
+
+```bash
+# Clone the repository
+git https://github.com/MaikoVoigt/ESP-IDF-Bosch-BSEC2-example
+
+# Change to the project directory
+cd ESP-IDF-Bosch-BSEC2-example
+
+# Initialize and update all submodules
+git submodule update --init --recursive
+```
+
+This step is essential to download all required libraries as they are included as Git submodules.
+
 ## Notes
 
 - This project demonstrates a native ESP-IDF implementation without relying on PlatformIO
