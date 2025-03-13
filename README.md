@@ -50,7 +50,6 @@ target_link_libraries(${COMPONENT_LIB} INTERFACE "${CMAKE_CURRENT_SOURCE_DIR}/sr
 
 - Original libraries by [Bosch Sensortec](https://github.com/boschsensortec)
 - PlatformIO adaptation by [luar123](https://github.com/luar123)
-- ESP-IDF native implementation by [Your Name/Repository]
 
 ## License
 
