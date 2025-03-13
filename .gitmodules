@@ -1,0 +1,9 @@
+[submodule "components/BME68x"]
+	path = components/BME68x
+	url = https://github.com/MaikoVoigt/Bosch-BME68x-Library.git
+[submodule "components/BSEC2"]
+	path = components/BSEC2
+	url = https://github.com/MaikoVoigt/Bosch-BSEC2-Library.git
+[submodule "components/I2Cbus"]
+	path = components/I2Cbus
+	url = https://github.com/natanaeljr/esp32-I2Cbus.git
